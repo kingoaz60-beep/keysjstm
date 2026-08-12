@@ -178,7 +178,7 @@ CheckBtn.MouseButton1Click:Connect(function()
         task.wait(0.6)
         ScreenGui:Destroy()
 
-        loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/c1a65c331ac2355d7bb64a457f684c33.lua"))()
+        loadstring(game:HttpGet("https://getdzhub.discloud.app/loader"))()
     else
         Status.TextColor3 = Color3.fromRGB(255, 90, 90)
         Status.Text = "Invalid key. Try again."
